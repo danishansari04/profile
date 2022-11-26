@@ -468,12 +468,12 @@ main { overflow-x: hidden; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 115px;
+  padding-top: 0px;
   margin-bottom: var(--section-padding);
 }
 
 .hero-banner {
-  max-width: 500px;
+  max-width: 600px;
   width: 125%;
   margin-bottom: 30px;
 }
@@ -485,7 +485,7 @@ main { overflow-x: hidden; }
 .hero-title {
   text-align: center;
   margin-bottom: 30px;
-  animation: backwards;
+  
 }
 
 .hero .btn-primary { margin-inline: auto; }
