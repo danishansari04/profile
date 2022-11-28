@@ -477,6 +477,9 @@ main { overflow-x: hidden; }
   width: 125%;
   margin-bottom: 30px;
 }
+.images:hover .hero-banner{
+  bottom: 70px;
+}
 
 :is(.hero-social-list, .scroll-down) { display: none; }
 
@@ -1353,3 +1356,79 @@ background-color: hsl(0, 0%, 12%);
 width: 70px;
 
 }
+
+
+
+
+/* typing */
+
+
+.warp {
+  width: max-content;
+}
+
+.typing {
+  color: aliceblue;
+  overflow: hidden;
+  font-size: x-large;
+  font-family: var(--ff-poppins);
+  white-space: nowrap;
+  border-right: 1px solid white;
+  padding-right: 5px;
+  animation: typing 3s steps(21) infinite alternate, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+    visibility: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: black;
+  }
+}
+
+
+
+.typing1 {
+  color: aliceblue;
+  overflow: hidden;
+  font-size: xx-large;
+
+  font-family: 'Times New Roman', Times, serif;
+  white-space: nowrap;
+  border-right: 1px solid white;
+  padding-right: 5px;
+  animation: typing 4s steps(21) infinite alternate, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+    visibility: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: black;
+  }
+}
+
+
+
